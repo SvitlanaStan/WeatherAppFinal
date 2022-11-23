@@ -15,7 +15,79 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
+      <div class="row align-items-start current-weather-start">
+        <div class="col"><h1>+18 °C |°F ☀️</h1></div>
+      </div>
+      <div class="row align-items-center current-weather-center">
+        <div class="col">
+          <form class="row g-2">
+            <div class="col-auto">
+              <input
+                type="text"
+                placeholder="Enter your City"
+                class="form-control"
+                id="exampleInputCity"
+                autofocus
+              />
+            </div>
+            <div class="col-auto">
+              <button type="button" class="btn btn-info CheckTemperarute">
+                Check Temperature
+              </button>
+            </div>
+            <div>Wednesday</div>
+            <div>November 23, 2022</div>
+            <div>13:17</div>
+          </form>
+        </div>
+        <div class="col">
+          <ul class="current-weather">
+            <li>Precipitation: 10%</li>
+            <li>Humidity: 20%</li>
+            <li>Wind: 3 km/h</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row align-items-end current-weather-end"></div>
+
+      <h2>Next 5 Day Weather</h2>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">Wed 19</div>
+          <div class="col">Thu 20</div>
+          <div class="col">Fri 21</div>
+          <div class="col">Sat 22</div>
+          <div class="col">Sun 23</div>
+        </div>
+        <div class="row align-items-center one">
+          <div class="col">☀️</div>
+          <div class="col">⛅</div>
+          <div class="col">⛅</div>
+          <div class="col">🌧️</div>
+          <div class="col">☁️</div>
+        </div>
+        <div class="row align-items-center two">
+          <div class="col">+10</div>
+          <div class="col">+5</div>
+          <div class="col">+6</div>
+          <div class="col">+10</div>
+          <div class="col">+13</div>
+        </div>
+        <div class="row align-items-end three">
+          <div class="col">20%</div>
+          <div class="col">50%</div>
+          <div class="col">75%</div>
+          <div class="col">25%</div>
+          <div class="col">10%</div>
+        </div>
+        <div class="row align-items-end end">
+          <div class="col">15km/h</div>
+          <div class="col">5km/h</div>
+          <div class="col">10km/h</div>
+          <div class="col">27km/h</div>
+          <div class="col">25km/h</div>
+        </div>
+      </div>
     </div>
   </body>
   <script src="src/app.js"></script>

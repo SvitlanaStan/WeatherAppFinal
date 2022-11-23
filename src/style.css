@@ -1,3 +1,13 @@
+body {
+  padding: 60px;
+  margin: 0 auto;
+  max-width: 100%;
+  align-items: center;
+}
 h1 {
-  color: aquamarine;
+  color: #0dcaf0;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
 }
