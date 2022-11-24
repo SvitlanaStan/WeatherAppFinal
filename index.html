@@ -4,53 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
       <div class="weather-app">
-        <div class="row align-items-start current-weather-start">
-          <div class="col"><h1>+18 °C |°F ☀️</h1></div>
-        </div>
-        <div class="row align-items-center current-weather-center">
-          <div class="col">
-            <form class="row g-2">
-              <div class="col-auto">
-                <input
-                  type="text"
-                  placeholder="Enter your City"
-                  class="form-control"
-                  id="exampleInputCity"
-                  autofocus
-                />
-              </div>
-              <div class="col-auto">
-                <button type="button" class="btn btn-info CheckTemperarute">
-                  Check Temperature
-                </button>
-              </div>
-              <div>Wednesday</div>
-              <div>November 23, 2022</div>
-              <div>13:17</div>
-            </form>
-          </div>
-          <div class="col">
-            <ul class="current-weather">
-              <li>Precipitation: 10%</li>
-              <li>Humidity: 20%</li>
-              <li>Wind: 3 km/h</li>
+        <h1>+18 °C |°F ☀️</h1>
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <form class="row g-2">
+                <div class="col">
+                  <input
+                    type="text"
+                    placeholder="Enter your City"
+                    class="form-control"
+                    id="exampleInputCity"
+                    autofocus
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-info CheckTemperarute">
+                Check Temperature
+              </button>
+            </div>
+            <div class="col">
+              <ul class="current-weather">
+                <li>Precipitation: 10%</li>
+                <li>Humidity: 20%</li>
+                <li>Wind: 3 km/h</li>
+              </ul>
+            </div>
+            <ul class="current-data">
+              <li>Wednesday</li>
+              <li>November 23, 2022</li>
+              <li>13:17</li>
             </ul>
           </div>
         </div>
-        <div class="row align-items-end current-weather-end"></div>
-
         <h2>Next 5 Day Weather</h2>
         <div class="container text-center">
           <div class="row align-items-start">

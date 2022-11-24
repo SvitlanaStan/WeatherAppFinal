@@ -6,14 +6,26 @@
   border: 1px solid #0dcaf0;
   border-radius: 10px;
 }
+.current-data {
+  text-align: left;
+}
 h1 {
   color: #0dcaf0;
   padding-bottom: 20px;
   font-size: 24px;
-  font-weight: 100;
-  line-height: 29px;
+  font-weight: 600;
+  line-height: 28px;
 }
 h2 {
   text-align: center;
   padding: 20px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
 }
