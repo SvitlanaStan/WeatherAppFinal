@@ -8,12 +8,16 @@
 }
 .current-data {
   text-align: center;
+  padding-top: 15px;
 }
 .current-weather {
   text-align: left;
 }
 .forecast {
   color: #878787;
+}
+body {
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   color: #0dcaf0;
