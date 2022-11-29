@@ -28,7 +28,8 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <h1>
-            +18 <span id="tempType"> °C |°F </span>
+            <span id="temperature"> +18 </span>
+            <span id="tempType"> °C |°F </span>
             <img
               class="box"
               src="http://www.gstatic.com/images/icons/material/apps/weather/2x/sunny_dark_color_96dp.png"
@@ -58,13 +59,14 @@
               </div>
               <div class="col">
                 <ul class="current-weather">
+                  <li id="description">Clear</li>
                   <li>Precipitation: 10%</li>
                   <li>Humidity: 20%</li>
                   <li>Wind: 3 km/h</li>
                 </ul>
               </div>
               <ul class="current-data">
-                <li id="currentCity">New York, USA</li>
+                <li id="city">New York, USA</li>
                 <li>Wednesday</li>
                 <li>November 23, 2022</li>
                 <li>13:17</li>
