@@ -30,31 +30,26 @@
           <h1>
             <span id="temperature"> +18 </span>
             <span id="tempType"> °C |°F </span>
-            <img
-              class="box"
-              src="http://www.gstatic.com/images/icons/material/apps/weather/2x/sunny_dark_color_96dp.png"
-              alt="Clear"
-              id="icon"
-              class="float-left"
-            />
+            <img class="box" src="" alt="Clear" id="icon" class="float-left" />
           </h1>
           <div class="container text-center">
             <div class="row align-items-start">
               <div class="col">
-                <form class="row g-2">
+                <form class="row g-2" id="search-form">
                   <div class="col">
                     <input
-                      type="text"
-                      placeholder="Enter your City"
+                      type="search"
+                      placeholder="Enter a city"
                       class="form-control"
-                      id="exampleInputCity"
+                      id="city-input"
                       autofocus
+                      autocomplete="off"
                     />
                   </div>
                 </form>
               </div>
               <div class="col">
-                <button type="button" class="btn btn-info CheckTemperarute">
+                <button type="submit" class="btn btn-info CheckTemperarute">
                   Check Temperature
                 </button>
               </div>
