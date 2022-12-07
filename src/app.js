@@ -1,5 +1,5 @@
-function formatDate(timestamp) {
-  let date = new Date(timestamp);
+function formatDate() {
+  let date = new Date();
   let hours = date.getHours();
   if (hours < 10) {
     hours = `0${hours}`;
@@ -37,7 +37,8 @@ function displayTemperature(response) {
   windElement.innerHTML = response.data.wind.speed;
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
 }
-
-let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Lisbon&key=140b3eb45f31cd8abo75dta8374d8f50&units=metric`;
+let apiKey = "140b3eb45f31cd8abo75dta8374d8f50";
+let city = "Lisbon";
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
