@@ -29,7 +29,10 @@
         <div class="weather-app">
           <h1>
             <span id="temperature"> +18 </span>
-            <span id="tempType"> °C |°F </span>
+            <span id="tempType">
+              <a href="#" id="celsius-link" class="active"> °C </a>|
+              <a href="#" id="fahrenheit-link">°F </a></span
+            >
             <img class="box" src="" alt="Clear" id="icon" class="float-left" />
           </h1>
           <div class="container text-center">
@@ -45,14 +48,13 @@
                       autocomplete="off"
                     />
                   </div>
-                
+                  <div class="col">
+                    <button type="submit" class="btn btn-info CheckTemperarute">
+                      Check Temperature
+                    </button>
+                  </div>
+                </form>
               </div>
-              <div class="col">
-                <button type="submit" class="btn btn-info CheckTemperarute">
-                  Check Temperature
-                </button>
-              </div>
-              </form>
               <div class="col">
                 <ul class="current-weather">
                   <li id="description">Clear</li>

@@ -73,3 +73,19 @@ li {
   font-weight: 600;
   padding-bottom: 5px;
 }
+#fahrenheit-link {
+  color: #0cbadd;
+  text-decoration: none;
+}
+#fahrenheit-link:hover {
+  text-decoration: underline;
+}
+
+#celsius-link {
+  color: #0cbadd;
+  text-decoration: none;
+}
+
+#celsius-link:hover {
+  text-decoration: underline;
+}
