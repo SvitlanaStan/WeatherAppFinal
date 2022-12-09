@@ -24,7 +24,6 @@
 
 .form-control {
   font-size: 14px;
-  margin-left: 0px;
   text-align: left;
 }
 .btn-info {
@@ -37,11 +36,10 @@ body {
 }
 h1 {
   color: #0cbadd;
-  padding-bottom: 20px;
+  padding: 15px;
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
-  margin: 0 15px;
 }
 img {
   max-width: 50%;
@@ -54,7 +52,6 @@ h2 {
 
 li {
   list-style: none;
-  margin: 0;
   padding: 0;
   font-weight: 400;
   line-height: 20px;
@@ -67,12 +64,10 @@ li {
 #githubLink {
   color: #0ba7c6;
   text-decoration: none;
-  margin: 0 15px;
 }
 
 #city-input {
   font-size: 15px;
-  margin: 0;
 }
 #fahrenheit-link {
   color: #0cbadd;
@@ -92,7 +87,6 @@ li {
 }
 #forecast {
   color: #878787;
-  margin: 0 auto;
   padding: 15px;
   text-align: center;
 }
